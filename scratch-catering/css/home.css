@@ -1,0 +1,15 @@
+.splide__slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-link.larger-font.portfolio-heading {
+    /* Your custom styles go here */
+    font-weight: bold;
+    color: #007bff; /* Example color (blue) */
+    /* Add any other styles you want to customize */
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.5;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>our-team</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/our-team.css">
+  <link rel="stylesheet" href="css/contact-us.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info navbar-custom fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link larger-font portfolio-heading" style="font-size: xx-large; font-weight: 700;" href="index.html">EventZone Caters</a>
+        </li>
+
+      </ul>
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="profileDropdown">
+            <a class="dropdown-item" href="#">Weddings</a>
+            <a class="dropdown-item" href="#">Birthday</a>
+            <a class="dropdown-item" href="#">Anniversary</a>
+
+            <div class="dropdown-divider"> </div>
+            <a class="dropdown-item" href="#">Other</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/gallery.html">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/our-team.html">Our Team</a>
+        </li>
+
+        <li class="nav-item">
+          <button class="btn btn-primary" onclick="toggleMode()">Theme</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid " style="margin-top: 5rem; margin-bottom: auto;">
+    <div class="row ">
+      <div class="column">
+        <div class="card">
+          <img src="images/Screenshot_1.png" alt="Jane">
+          <div class="container">
+            <h2>Sunil Sharma</h2>
+            <p class="title">CEO &amp; Founder</p>
+            <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+            <p>sunilsharma@gmail.com</p>
+            <p><button class="button">8432074173</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="images/rajesh2.png" alt="Mike">
+          <div class="container">
+            <h2>Rajesh Sharma</h2>
+            <p class="title">Art Director</p>
+            <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+            <p>rajeshsharma@gmail.com</p>
+            <p><button class="button">9667716464</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="images/rahul2.png" alt="John">
+          <div class="container">
+            <h2>Rahul Sharma</h2>
+            <p class="title">Designer</p>
+            <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+            <p>rahulsharma@gmail.com</p>
+            <p><button class="button mx-auto">9358617877</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div style="justify-content:  center; margin-top: auto; background-color: lavender;" class="footer-bottom">
+    <small>© My Company Ltd. <span id="year"></span> &copy|@ 2023| Catering Services|Jaipur| All rights reserved|
+      Website Developed & Maintained by Rahul Sharma</small>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      var navbar = document.querySelector('.navbar-custom');
+
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        navbar.classList.add('navbar-scrolled');
+      } else {
+        navbar.classList.remove('navbar-scrolled');
+      }
+    }
+  </script>
+</body>
+
+</html>

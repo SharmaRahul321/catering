@@ -1,0 +1,90 @@
+.navbar-custom {
+    transition: top 0.5s;
+  }
+
+  .navbar-custom.fixed-top.navbar-scrolled {
+    background-color: #333;
+    /* Change the background color when scrolled */
+  }
+
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 350px;
+    /* Set your desired fixed height for the entire card */
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .title {
+    color: grey;
+  }
+
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #605dff;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+    width: 40%;
+  }
+
+
+  #button-class:hover {
+    background-color: #2980b9; /* New color on hover */
+  }
+  
+  #button-class{
+    background-color: #605dff;
+  }
+
+
+  .button:hover {
+    background-color: #2980b9;
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 350px; /* Set your desired fixed height for larger screens */
+  
+    /* Updated styles for smaller screens */
+    @media screen and (max-width: 650px) {
+      height: auto; /* Allow the height to adjust based on content */
+    }
+  }
+
+  
+  .footer-bottom {
+    background-color: lavender;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
